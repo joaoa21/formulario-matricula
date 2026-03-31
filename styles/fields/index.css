@@ -28,7 +28,7 @@ textarea:focus {
   outline-offset: .1px;
 }
 
-input[type="date"] {
+input[type="date"]:focus-within {
   position: relative;
 
   &::-webkit-calendar-picker-indicator {
